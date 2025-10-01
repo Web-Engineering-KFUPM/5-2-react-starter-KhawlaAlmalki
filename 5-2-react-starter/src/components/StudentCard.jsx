@@ -1,9 +1,10 @@
-function StudentCard() {
+// src/components/StudentCard.jsx
+function StudentCard({ name, id, dept }) {
     return (
         <div>
-            <h3>Name: Khawlah Almalki</h3>
-            <p>Student ID: 202247320</p>
-            <p>Department: ICS</p>
+            <h3>Name: {name}</h3>
+            <p>Student ID: {id}</p>
+            <p>Department: {dept}</p>
         </div>
     );
 }
